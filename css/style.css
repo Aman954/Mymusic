@@ -1,0 +1,597 @@
+ *
+ {
+     color:white;
+ }
+
+ 
+
+ body
+{
+   /* background-color:rgba(0, 0, 0, 0.904) !important;*/
+
+    color:white;
+    background-color: rgba(0, 0, 0,0.91) !important;
+
+
+}
+#clse
+{
+    background-color:rgba(0, 0, 0, 0.808);
+
+}
+#ls
+{
+    background-color:rgba(0, 0, 0, 0.808);
+
+}
+#back
+{
+    background:url("../img/pause.png");
+    background-size:cover;
+    width:20px;
+    height:20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:4px;
+    position:absolute;
+    right:26px;
+    cursor: pointer;
+}
+.notification
+{
+position:absolute;
+top:0px;
+right:8px;
+padding:10px;
+background:rgb(0, 41, 128);
+border-top-left-radius: 6px;
+border-bottom-right-radius: 6px;
+opacity: 0.7;
+}
+
+
+
+.outer
+{
+    padding:15px 7px;
+}
+
+#list
+{
+    
+    font-size:36px;
+    color:white;
+    position: relative;  
+    top:-2.7px;
+    left: 22px;
+    cursor: pointer;
+    z-index:1;
+     display:flex;
+
+}
+
+
+.outerlist 
+{
+     padding:0px;
+     position: relative;
+     top:7px;
+     background-color: rgba(0, 0, 0, 1);
+     border-top-right-radius: 30px;
+     border-bottom-right-radius:30px;
+     z-index:1;
+     width:70px;
+}
+
+.log
+{
+    margin-left:10px;
+    margin-top:-10px;
+    
+}
+
+.right 
+{
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+
+.stl 
+{
+    font-family: 'Tangerine', serif;
+    margin-top:15px;
+    color:white;
+    margin-left: 4px;
+    font-family: oswald;
+    font-family: 'Oswald', sans-serif;
+    font-size:30px;
+     position: relative;
+     top:7px;
+}
+
+.slider
+{
+height:100vh;
+width:330px;
+position: fixed;
+top:0;
+left:-640px;
+background:black;
+z-index:2;
+padding:6px 15px;
+overflow:auto;
+}
+
+.afterslide
+{
+    transition: 0.5s;
+}
+
+#close
+{
+    float:right;
+    color:white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.head 
+{
+    margin:-10px 20px;
+    padding:0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.wrap
+{
+   
+    margin:0;
+}
+.contr
+{
+position: relative;
+text-align: center;
+}
+.img 
+{
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    position:relative;
+}
+.cap 
+{
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity:0.7;
+     position: relative ;
+     top:-4px;
+     font-weight: lighter;
+}
+.caphead 
+{
+    margin-top:3px;
+
+}
+
+.mymusic 
+{
+    margin-bottom:270px;
+}
+
+.more 
+{
+    cursor: pointer;
+    color:rgba(67, 193, 202, 0.973);
+}
+.plus
+{
+    text-decoration: underline;
+
+}
+.logo 
+{
+    font-family: 'Tangerine', serif;
+    font-size:25px;
+}
+.heading
+{
+    
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom:1px solid grey;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    width:80%;
+    font-weight: bold;
+    color:whitesmoke;
+    font-family:sans-serif;
+}
+.playpauseprevnext 
+{
+    display:block;
+}
+
+#playpaused
+{
+    background-image:url("../img/myplay.png"); 
+    width:20px;
+    height:20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:4px;
+    position: absolute;;
+    right:27px;
+    cursor: pointer;
+}
+#prevt
+{
+
+    background-image:url("../img/backward.png"); 
+    width:20px;
+    height:20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:4px;
+    position: absolute;;
+    right:55px;
+    cursor: pointer;
+}
+#nextt
+{
+
+    background-image:url("../img/forward.png"); 
+    width:20px;
+    height:20px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin:4px;
+    position: absolute;
+    right:0;
+    cursor: pointer;
+}
+.sml
+{
+    font-size:19px;
+    opacity:0.80;
+    font-weight: lighter !important;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    
+}
+
+.downto
+{
+    position:fixed;
+    bottom:0px;
+    margin-top:15px;
+}
+
+.set 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fam 
+{
+    font-size:20px;
+    
+    
+}
+
+.body 
+{
+    margin-top:70px;
+    position:sticky;
+    margin-bottom:50px;
+}
+
+::placeholder 
+{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:white;
+  }
+
+
+
+
+.mid 
+{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    z-index:1;
+}
+#pic 
+{
+width:100%;
+margin-left:auto;
+margin-right:auto;
+border:6px groove black;
+}
+
+.picanimation
+{
+    animation: rot 2s infinite linear;
+
+}
+
+@keyframes rot 
+{
+from{transform: rotate(0deg);}
+to{transform: rotate(365deg);}
+}
+
+.picstopped
+{
+    animation-play-state: paused;
+
+}
+
+#pic:hover
+{
+animation-play-state: paused;
+}
+
+.img:hover
+{
+opacity:0.4;
+cursor: pointer;
+transition-duration: 0.5s;
+}
+
+#rou
+{
+    max-width:100px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    top:-60px;
+    z-index:2;
+}
+
+.wt
+{
+    height:260px;
+    max-width:330px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.foot
+{
+   
+    background:black;
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+
+}
+
+.playpause 
+{
+    max-width:200px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    justify-content: first baseline;
+    margin-top:3px;
+    margin-bottom:30px;
+
+}
+
+.contain
+{
+    margin-left:auto;
+    margin-right:auto;
+    background-image: url("../img/myplay.png");
+    height:50px;
+    position: relative;
+    top:0px;
+    width:50px;
+    background-size: cover;
+    margin-top:13px;
+    cursor: pointer;
+}
+.previous
+{
+    background-image: url("../img/backward.png");
+    height:50px;
+    position: relative;
+    top:0px;
+    width:50px;
+    background-size: cover;
+    margin-top:13px;
+}
+.next
+{
+    background-image: url("../img/forward.png");
+    height:50px;
+    position: relative;
+    top:0px;
+    width:50px;
+    background-size: contain;
+    margin-top:13px;
+}
+.title 
+{
+    max-width:300px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    margin-top:-57px;
+    line-height: 6px;
+}
+
+#outer
+{
+    position:absolute;
+    width:100%;
+    z-index:1;
+    height:3px;
+    background:white;
+    cursor:pointer;
+    border-bottom:0.2px solid grey;
+}
+
+#inner
+{
+    width:0%;
+    background:#c40a0ad7;
+    height:3px;
+    cursor: pointer;
+    z-index:-1;
+}
+#move
+{
+    margin-top:-25px;
+}
+.time 
+{
+    display: flex;
+    justify-content: space-between;
+    padding:4px 8px;
+}
+
+.volume 
+{
+    background-image: url("../img/volume.png");
+    width:40px;
+    height:40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.wrapper
+{
+    float:right;
+    position:absolute;
+    top:50px;
+    right:14px;
+}
+
+#rng
+{
+    float:right;
+    position:relative;
+    top:5.4px;
+    margin-left:7px;
+}
+
+#muteunmute
+{
+    background-image:url("../img/unmute.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:25px;
+    height:25px;
+    float:left;
+}
+.speed
+{
+    position: absolute;
+    top:44px;
+    left:15px;
+}
+
+.ott
+{
+    display:none;
+}
+.speedo
+{
+    background-image:url("../img/speed.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:25px;
+    height:25px;
+    float:left;
+    margin-right:4px;
+    margin-left:14px;
+
+}
+#elab 
+{
+    display: none;
+}
+.show
+   {
+       display:block;
+   }
+   .hide 
+   {
+    display:none;
+   }
+@media screen and (max-width:460px)
+{
+    .slider 
+    {
+        width:100%;
+    }
+}
+
+@media screen and (max-width:660px)
+{
+   .speed 
+   {
+       margin-left:auto;
+       margin-right:auto;
+       clear:both;
+       position: sticky;
+       margin-left:5px;
+
+       
+   }
+   .ott 
+   {
+       display: block;
+       float: left;
+   }
+   
+    .wrapper{
+        position: absolute;
+        bottom:0;
+        clear:both;
+        top:196px;
+        z-index: 100;
+    }
+    .volume 
+    {
+        width:25px;
+        height:25px;
+        margin-top:6.5px;
+    }
+    .next
+    {
+        border:1px solid black;
+    }
+
+    #elab
+    {
+        display:block;
+        padding-left:5px;
+        padding-bottom:2px;
+        clear: both;
+        text-align: center;
+    }
+ #ot
+ {
+    text-align:centre;
+     clear: both;
+     margin-left: auto;
+     margin-right: auto;
+     cursor: pointer;
+ }   
+}
