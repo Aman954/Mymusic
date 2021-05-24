@@ -634,6 +634,7 @@ var son=(eve)=>{
             }
              }
 var song=new Audio(); 
+song.crossOrigin="anonymous";
 var st="";
 var sr=""; 
 $(document).on("click","#playpaused,#screenclick,#myplaylistplay",function(e){
