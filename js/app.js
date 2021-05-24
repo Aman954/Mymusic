@@ -326,6 +326,12 @@ $("#createplaylist").on("submit",function(e){
             data:playlists,
             async:true,
             dataType:"json",
+            beforeSend:function(){
+              $.LoadingOverlay("show");
+            },
+            complete:function(){
+              $.LoadingOverlay("hide");
+            },
             contentType:false,
             processData:false,
             success:data=>{
