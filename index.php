@@ -234,6 +234,8 @@
 <script src="jquery/jquery-3.5.1.min.map"></script>
 <script src="bootstrap5/js/bootstrap.min.js"></script>
 <!--==cdn==-->
+<script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+
 <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.3/jsmediatags.min.js" integrity="sha512-gQ6HBTG0fuB5lRb4v9YJtFPyKUBGlaK1o6cmzqt6umBCyi4S1XdCg/hVptb1XLs1MTkUtCH6rZSI0a+eJJLkXQ==" crossorigin="anonymous"></script>-->
 <script type="text/javascript" src="js/app.js"></script>   
 </body>
